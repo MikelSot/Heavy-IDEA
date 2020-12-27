@@ -1,5 +1,5 @@
 
-package optional;
+package heavy.domain.optional;
 
 
 public class Province {

@@ -1,7 +1,7 @@
-package web;
+package heavy.Web;
 
-import Data_Base.SupplierQuery;
-import Domain.Supplier;
+import heavy.dataBase.SupplierQuery;
+import heavy.domain.Supplier;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;

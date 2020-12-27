@@ -1,11 +1,11 @@
-package Data_Base.optional_Query;
+package heavy.dataBase.optional;
 
-import Data_Base.ConnectionDb;
+import heavy.dataBase.ConnectionDb;
 import java.sql.*;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
-import optional.Role;
+import heavy.domain.optional.Role;
 
 public class RoleQuery {
 

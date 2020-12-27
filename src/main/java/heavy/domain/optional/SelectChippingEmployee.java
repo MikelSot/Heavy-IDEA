@@ -1,5 +1,5 @@
 
-package QueryClass;
+package heavy.domain.optional;
 
 
 public class SelectChippingEmployee {

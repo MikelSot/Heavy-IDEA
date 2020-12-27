@@ -1,12 +1,12 @@
-package Data_Base;
+package heavy.dataBase;
 
-import Domain.*;
+import heavy.domain.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import optional.Includes;
+import heavy.domain.optional.*;
 
 public class ProductQuery {
 

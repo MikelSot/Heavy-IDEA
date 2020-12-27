@@ -1,9 +1,9 @@
-package web;
+package heavy.Web;
 
-import Data_Base.*;
-import Data_Base.optional_Query.*;
-import Domain.*;
-import QueryClass.SelectUserOrders;
+import heavy.dataBase.*;
+import heavy.dataBase.optional.*;
+import heavy.domain.*;
+import heavy.domain.optional.*;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import optional.District;
+
 
 @WebServlet("/OrderServlet")
 public class OrderServlet extends HttpServlet {
@@ -115,7 +115,7 @@ public class OrderServlet extends HttpServlet {
             session.setAttribute("orders", orders);
             response.sendRedirect("orders.jsp");
         } catch (SQLException ex) {
-            Logger.getLogger(SupplierServlet.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(OrderServlet.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 

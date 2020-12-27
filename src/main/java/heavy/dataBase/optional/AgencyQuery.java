@@ -1,10 +1,10 @@
-package Data_Base.optional_Query;
+package heavy.dataBase.optional;
 
-import Data_Base.ConnectionDb;
+import heavy.dataBase.ConnectionDb;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import optional.Agency;
+import heavy.domain.optional.Agency;
 
 public class AgencyQuery {
 
@@ -41,18 +41,9 @@ public class AgencyQuery {
         } catch (SQLException e) {
             ConnectionDb.processEception(e);
         } finally {
-            if (resultSet != null && resultSet.isClosed() == false) {
-                ConnectionDb.close(resultSet);
-            }
-            resultSet = null;
-            if (preparedStatement != null && preparedStatement.isClosed() == false) {
-                ConnectionDb.close(preparedStatement);
-            }
-            preparedStatement = null;
-            if (connection != null && connection.isClosed() == false) {
-                ConnectionDb.close(connection);
-            }
-            connection = null;
+            ConnectionDb.close(resultSet);
+            ConnectionDb.close(preparedStatement);
+            ConnectionDb.close(connection);
         }
         return agencys;
     }
@@ -84,18 +75,9 @@ public class AgencyQuery {
         } catch (SQLException e) {
             ConnectionDb.processEception(e);
         } finally {
-            if (resultSet != null && resultSet.isClosed() == false) {
                 ConnectionDb.close(resultSet);
-            }
-            resultSet = null;
-            if (preparedStatement != null && preparedStatement.isClosed() == false) {
                 ConnectionDb.close(preparedStatement);
-            }
-            preparedStatement = null;
-            if (connection != null && connection.isClosed() == false) {
                 ConnectionDb.close(connection);
-            }
-            connection = null;
         }
         return agencys;
     }      

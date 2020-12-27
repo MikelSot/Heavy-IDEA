@@ -1,7 +1,7 @@
-package Data_Base;
+package heavy.dataBase;
 
-import Domain.*;
-import QueryClass.SelectUserPayments;
+import heavy.domain.*;
+import heavy.domain.optional.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

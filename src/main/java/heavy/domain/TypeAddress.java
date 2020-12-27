@@ -1,7 +1,6 @@
 
-package Domain;
+package heavy.domain;
 
-import java.io.Serializable;
 
 
 public class TypeAddress{

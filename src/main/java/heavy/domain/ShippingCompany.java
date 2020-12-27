@@ -1,4 +1,4 @@
-package Domain;
+package heavy.domain;
 
 
 public class ShippingCompany {

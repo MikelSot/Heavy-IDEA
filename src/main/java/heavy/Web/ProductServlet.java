@@ -1,8 +1,9 @@
-package web;
+package heavy.Web;
 
-import Data_Base.*;
-import Data_Base.optional_Query.DistrictQuery;
-import Domain.*;
+import heavy.dataBase.*;
+import heavy.dataBase.optional.*;
+import heavy.domain.*;
+import heavy.domain.optional.*;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
@@ -11,8 +12,7 @@ import java.util.logging.Logger;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
-import optional.District;
-import optional.Includes;
+
 
 @WebServlet("/ProductServlet")
 public class ProductServlet extends HttpServlet {

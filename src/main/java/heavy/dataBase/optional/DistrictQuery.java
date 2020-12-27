@@ -1,11 +1,10 @@
-package Data_Base.optional_Query;
+package heavy.dataBase.optional;
 
-import Data_Base.ConnectionDb;
+import heavy.dataBase.ConnectionDb;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import optional.District;
-import optional.Province;
+import heavy.domain.optional.*;
 
 public class DistrictQuery {
 

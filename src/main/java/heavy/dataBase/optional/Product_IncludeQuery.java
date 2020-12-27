@@ -1,12 +1,12 @@
 
-package Data_Base.optional_Query;
+package heavy.dataBase.optional;
 
-import Data_Base.ConnectionDb;
-import Domain.Product;
+import heavy.dataBase.ConnectionDb;
+import heavy.domain.Product;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import optional.Product_Include;
+import heavy.domain.optional.Product_Include;
 public class Product_IncludeQuery {
     
     private static final String sql_select = "EXECUTE USP_SelectInclude_Product ?"; // que incluye cada producto

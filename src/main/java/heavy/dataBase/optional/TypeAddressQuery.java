@@ -1,7 +1,7 @@
-package Data_Base.optional_Query;
+package heavy.dataBase.optional;
 
-import Data_Base.ConnectionDb;
-import Domain.TypeAddress;
+import heavy.dataBase.ConnectionDb;
+import heavy.domain.TypeAddress;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

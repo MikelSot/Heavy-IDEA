@@ -1,6 +1,6 @@
-package Data_Base;
+package heavy.dataBase;
 
-import Domain.*;
+import heavy.domain.*;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;

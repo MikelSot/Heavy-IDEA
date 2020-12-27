@@ -1,16 +1,16 @@
 package test;
 
-import Data_Base.*;
-import Domain.*;
+import heavy.dataBase.*;
+import heavy.domain.*;
 import java.sql.Date;
-import Data_Base.optional_Query.*;
-import QueryClass.*;
+import heavy.dataBase.optional.*;
+import heavy.domain.optional.*;
 import java.sql.SQLException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.List;
-import optional.*;
+
 
 public class TestConnection {
 
