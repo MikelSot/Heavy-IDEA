@@ -7,5 +7,5 @@
 
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
 <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style_2.css">
-<link rel="stylesheet" href="/resources/img/heavy.svg">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/resources/img/heavy.svg">
 

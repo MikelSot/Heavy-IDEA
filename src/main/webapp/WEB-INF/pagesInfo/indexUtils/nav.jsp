@@ -4,7 +4,7 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="${pageContext.request.contextPath}/index.jsp">
         <div class="sidebar-brand-icon rotate-n-15">
-            <img src="resource/img/heavy.svg" alt="" style="height: 45px; width: 45pxs;">
+            <img src="${pageContext.request.contextPath}/resources/img/heavy.svg" alt="" style="height: 45px; width: 45px;">
         </div>                                      <!-- ponemos un icono -->
         <div class="sidebar-brand-text mx-3" style="font-family: 'Montserrat', sans-serif;">Heavy <sup> <i class="fas fa-star-of-david"></i> </sup></div>
     </a>
@@ -74,7 +74,7 @@
                 <a class="collapse-item" href="${pageContext.request.contextPath}/SupplierServlet">Proveedores</a>
                 <a class="collapse-item" href="${pageContext.request.contextPath}/OrderSupplierServlet">Pedido Proveedores</a>
                 <h6 class="collapse-header">Otras Paginas:</h6>
-                <a class="collapse-item" href="${pageContext.request.contextPath}/ShippingCompanyServlet">Empresas de Envío</a>
+                <a class="collapse-item" href="${pageContext.request.contextPath}/ShippingCompanyServlet">Empresas de Envio</a>
             </div>
         </div>
     </li>

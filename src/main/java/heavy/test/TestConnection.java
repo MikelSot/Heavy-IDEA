@@ -383,11 +383,11 @@ public class TestConnection {
         System.out.println(selectOrderDetailIdOrders);
 
 */
-        List<Employee> employees = new EmployeeQuery().select();
+        Employee employee = new EmployeeQuery().selectEmployee(new Employee(15));
 
-        for (Employee employee : employees) {
-            System.out.println(employee.toString());
-        }
+
+            System.out.println(employee);
+
 
     }
 

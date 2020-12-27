@@ -61,12 +61,10 @@
                                                             <input type="text" class="form-control" name="dni" maxlength="8" required value="${employee.dni}">        
                                                         </div>
 
-
-                                                        <div div class="col-md-3">
+                                                        <div class="col-md-3">
                                                             <label for="birthDate">Fecha Nacimiento</label>
-                                                            <input type="text" class="form-control" name="birthDate" required value="${employee.birthDate}">
+                                                            <input type="text" class="form-control" name="birthDate" value="${employee.birthDate}" required>
                                                         </div>
-
 
 
                                                         <div div class="col-md-3">

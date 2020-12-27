@@ -290,6 +290,7 @@ public class EmployeeServlet extends HttpServlet {
         session.setAttribute("button", button);
         session.setAttribute("success", message);
         System.out.println("update empleados--> " + rowAffected);
+        System.out.println("cumple fecha--> " + birthDate);
         this.accionDefault(request, response);
     }
 

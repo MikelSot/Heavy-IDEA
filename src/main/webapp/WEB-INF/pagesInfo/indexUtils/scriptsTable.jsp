@@ -1,2 +1,2 @@
-<script src="${pageContext.request.contextPath}/resource/js/datatables.min.js"></script>
-<script src="${pageContext.request.contextPath}/resource/js/DataTable.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/datatables.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/js/DataTable.js"></script>
