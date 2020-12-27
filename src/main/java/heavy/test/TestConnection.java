@@ -376,11 +376,19 @@ public class TestConnection {
         for (Product product: selectOrderDetailsProduct) {
             System.out.println(product);
         }
-*/
+
         User selectOrderDetailIdUserId = new OrderDetailsQuery().selectOrderDetailIdUserId(new OrderDetail(18));
         SelectUserOrders selectOrderDetailIdOrders = new OrderDetailsQuery().selectOrderDetailIdOrders(new OrderDetail(18));
         Product selectOrderDetailIdProduct = new OrderDetailsQuery().selectOrderDetailIdProduct(new OrderDetail(18));
-        System.out.println(selectOrderDetailIdProduct);
+        System.out.println(selectOrderDetailIdOrders);
+
+*/
+        List<Employee> employees = new EmployeeQuery().select();
+
+        for (Employee employee : employees) {
+            System.out.println(employee.toString());
+        }
+
     }
 
 }

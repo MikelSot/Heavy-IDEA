@@ -42,9 +42,7 @@ public class EmployeeQuery {
             connection = ConnectionDb.getConnection();
             preparedStatement = connection.prepareStatement(SQL_SELECT);
             resultSet = preparedStatement.executeQuery();
-
             while (resultSet.next()) {
-
                 int employeeId = resultSet.getInt("EmployeeID");
                 String firstName = resultSet.getString("FirstName");
                 String lastName = resultSet.getString("LastName");
@@ -80,10 +78,7 @@ public class EmployeeQuery {
 
             if (preparedStatement != null && preparedStatement.isClosed() == false) {
                 ConnectionDb.close(preparedStatement);
-            }
-            preparedStatement = null;
 
-            if (connection != null && connection.isClosed() == false) {
                 ConnectionDb.close(connection);
             }
             connection = null;

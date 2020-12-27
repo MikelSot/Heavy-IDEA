@@ -9,15 +9,15 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">¿Listo para salir?</h5>
+                <h5 class="modal-title" id="exampleModalLabel">ï¿½Listo para salir?</h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
+                    <span aria-hidden="true">ï¿½</span>
                 </button>
             </div>
-            <div class="modal-body">Seleccione "Cerrar sesión" a continuación si está listo para finalizar su sesión actual.</div>
+            <div class="modal-body">Seleccione "Cerrar sesiï¿½n" a continuaciï¿½n si estï¿½ listo para finalizar su sesiï¿½n actual.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                <a class="btn btn-primary" href="login.html">Cerrar Sesión</a>
+                <a class="btn btn-primary" href="login.html">Cerrar Sesiï¿½n</a>
             </div>
         </div>
     </div>
